@@ -81,43 +81,43 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/javascripts/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _moduel_ma_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./moduel/ma.js */ \"./src/moduel/ma.js\");\n/* harmony import */ var _moduel_my_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./moduel/my.css */ \"./src/moduel/my.css\");\n/* harmony import */ var _moduel_my_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_moduel_my_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nObject(_moduel_ma_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/moduel/ma.js":
-/*!**************************!*\
-  !*** ./src/moduel/ma.js ***!
-  \**************************/
+/***/ "./src/javascripts/ma.js":
+/*!*******************************!*\
+  !*** ./src/javascripts/ma.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (() => {\n    console.log('Hello');\n});\n\n\n//# sourceURL=webpack:///./src/moduel/ma.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (() => {\n    console.log('Hello');\n});\n\n\n//# sourceURL=webpack:///./src/javascripts/ma.js?");
 
 /***/ }),
 
-/***/ "./src/moduel/my.css":
-/*!***************************!*\
-  !*** ./src/moduel/my.css ***!
-  \***************************/
+/***/ "./src/javascripts/main.js":
+/*!*********************************!*\
+  !*** ./src/javascripts/main.js ***!
+  \*********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ma_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ma.js */ \"./src/javascripts/ma.js\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stylesheets/main.css */ \"./src/stylesheets/main.css\");\n/* harmony import */ var _stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_main_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nObject(_ma_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack:///./src/javascripts/main.js?");
+
+/***/ }),
+
+/***/ "./src/stylesheets/main.css":
+/*!**********************************!*\
+  !*** ./src/stylesheets/main.css ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/moduel/my.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/stylesheets/main.css?");
 
 /***/ })
 
