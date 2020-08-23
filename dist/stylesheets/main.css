@@ -1,3 +1,21 @@
+footer {
+  background-color: #ddd; }
+
 body {
-    color: lightblue;
-}
+  color: lightblue; }
+
+.content {
+  background-color: red;
+  margin-right: 16px; }
+  .content .title, .content .title-lg, .content .title-md, .content .title-sm {
+    font-size: 24px;
+    color: orange;
+    display: block;
+    background-color: skyblue; }
+  .content .title-lg {
+    font-size: 32px; }
+  .content .title-md {
+    font-size: 28px; }
+  .content .title-sm {
+    font-size: 16px; }
+
